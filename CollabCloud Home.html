@@ -1,0 +1,66 @@
+<html>
+    <style>
+        #form1 {
+        padding-top:15%;
+        }
+        fieldset#contactinfo {
+        border: 1px solid #a7a7a4;
+        text-align: center;
+        width: auto px;
+        margin:auto;
+		padding-bottom: 23px;
+		border-bottom: 1px solid #a7a7a4;
+        }
+        #table {
+        text-align:center;
+        }
+        #div {
+        text-align: center;
+        }
+        #h1 {
+        text-align: left;
+        } 
+		#artist_image {
+		width: 300px;
+		height: 300px;
+		}
+    </style>
+<head>
+    <title>CollabCloud</title>
+</head>
+<body>
+	
+	<form id="form1" name="form1" method="post" action="../web services/final.php">
+		<fieldset id="contactinfo">
+				<div>
+					<h1><img name="artist_image" src="https://i2.sndcdn.com/avatars-000019592005-9rpef8-t500x500.jpg?435a760" width='300px' height='300px' align="left" alt="Artist Name"></h1>
+				</div>
+			<ul>
+				<table id='table'>
+					<tr>
+						<td><label for="addr">Artist Name:</label></td>
+					</tr>
+					<tr>
+						<td><label for="strt">Artist Info:</label></td><br>
+							<td><p>
+								Placeholder placeholder placeholder placeholder placeholder placeholder </br>
+							</p></td>
+					</tr>
+					
+					<tr>
+						<td><label for="city">Song One</label></td>
+						<td><img name="artist_image" src="http://theitechblog.com/media/soundcloud-download-music.png" width='400px' height='150px' align="left" alt="Artist Name">
+					</tr>
+					<tr>
+						<td><label for="state">Song Two</label></td>
+						<td><img name="artist_image" src="http://theitechblog.com/media/soundcloud-download-music.png" width='400px' height='150px' align="left" alt="Artist Name">
+					</tr>
+				</table>
+			</ul>
+		<input id='message' name="message" type="submit" value="Message"/>
+		<input id='continue' name="continue" type="submit" value="Pass"/>
+		</fieldset>
+	</form>
+
+</body>
+</html>
